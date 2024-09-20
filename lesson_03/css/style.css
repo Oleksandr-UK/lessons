@@ -1,0 +1,87 @@
+@import url("reset.css");
+
+/* Все відобазити в red колір */
+* { 
+   color: red;
+}
+
+/* Всі h2 відобазити в green колір */
+h2 {
+   color: green;
+}
+
+/* Всі header відобазити в aqua колір */
+header {
+   color: aqua;
+}
+
+/* Всі класи title відобазити в brown колір */
+.title {
+   color: brown;
+}
+
+/* Всі класи article відобазити в blueviolet колір */
+.article {
+   color: blueviolet;
+}
+
+/* Всі #some-id відобазити в brown колір */
+#some-id {
+   color: brown;
+}
+
+/* Всі класи з збігом літер ti відобазити в red колір */
+[class*="ti"]{
+   color: red;
+}
+
+/* Всі параграфи з класом text відобазити в blue колір */
+p.text {
+   color: blue;
+}
+
+/* Всі header з класом article відобазити в blue колір */
+header, .article {
+   color: blue;
+}
+
+/* Всі параграфи з класом article відобазити в gold колір */
+.article p {
+   color: gold;
+}
+
+/* Всі div з класом text відобразити в blue колір*/
+div.text { 
+   color: blue;
+}
+
+/* Всі класи text та item відобразити в red колір*/
+.text, 
+.item {
+   color: red;
+}
+
+/* Всі гіперпосилання з класом article відобазити в зелений колір */
+.article a {
+   color: green;
+}
+
+/* Всі об'єкти з класом article відобразити в синій колір */
+.article *{
+   color: blue;
+}
+/* Всі параграфи з класом title першого рівня відобразити  в blue колір */
+.title > p {  
+   color: blue;
+}
+
+/* Всі параграфи першого рівня, які йдуть далі по коду після всіх об'єктів класа text та мають той самий рівень вкладеності відобразити в сірий колір */
+.text ~ p { 
+   color: grey;
+ }
+
+/* Тегі р які знаходяться безпосередньо далі по коду після об'єктів з класом text та мають той самий рівень вкладеності */
+.text + p { 
+   color: grey;
+}
+
