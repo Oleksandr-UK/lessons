@@ -1,0 +1,175 @@
+@import url("reset.css");
+
+
+/* підключення шріфтів в VS code через плагін google fonts: insert css @import для шрифту firacode */
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700&display=swap");
+
+/* підключення шріфтів в VS code через плагін google fonts: insert css @import для шрифту Monoton */
+@import url("https://fonts.googleapis.com/css?family=Monoton:regular&display=swap");
+
+/* підключення шріфтів в VS code через плагін google fonts: insert css @import для шрифту Source Code Pro */
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:regular,500,600,700,800,300italic&display=swap");
+
+/* підключення шріфтів через завантаження та локального зберігання для Consalas */
+@import url("..css/font.css");
+
+/* підключення шріфтів в VS code через плагін google fonts: insert css @import для шрифту Inconsolata */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:regular,500,600,700&display=swap");
+
+/* підключення шріфтів через завантаження та локального зберігання для Menlo */
+@import url("..css/fonts.css"); 
+
+/* Підключення шрифтів для макетів */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+
+
+
+.block1 {
+   color: gray;
+   text-align: right;
+   font-style: italic;
+}
+
+.title-text {
+   color: olive;
+   font-size: 24px;
+}
+
+.text {
+   text-align: center;
+   text-decoration-color: #408080;
+   text-decoration-line: line-through;
+   text-decoration-line: overline;
+   text-decoration-style: dotted ;
+   text-decoration-line: underline ;
+   text-shadow: 2px 2px 5px #ff0080;
+   white-space: nowrap;
+}
+
+.fira-code {
+   font-family: "Fira Code", "Arial", monospace;
+   color: orange;
+   text-shadow:
+   -5px 3px 5px #09ff90,
+   5px -3px 5px #8080ff,
+   2px 4px 3px #80907f;
+}
+
+.monoton {
+   font-family: "Monoton", "Times New Roman", fantasy;
+   word-spacing: 30px; /*інтервал між словами*/
+   color: orchid;
+}
+
+.source-code-pro {
+   font-family: "Source code pro", "Arial", sans-serif;
+   color: orangered;
+   text-transform: uppercase;
+}
+
+.consolas {
+   font-family: "Consolas", "Arial", sans-serif;
+   color: blue;
+   text-transform: capitalize;
+      
+}
+
+.inconsolata {
+   font-family: "Inconsolata", "Arial", monospace;
+   color: brown;
+   text-transform: lowercase;
+}
+
+.menlo {
+   font-family: "Menlo", "Arial", monospace;
+   color: red;
+}
+
+.block3 { 
+      font-family: "Fira Code", "Arial", sans-serif;
+         color: blueviolet;
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 1.5; /* міжстрочний інтервал */
+} 
+
+.contacts {
+   text-decoration-line: underline;
+   text-decoration-color: #ff0000;
+}
+
+.link {
+   color: #340384;
+   letter-spacing: 20px; /*інтервал між літерами*/
+   text-shadow: -8px 5px 2px #ff0080;
+}
+
+/* ----------------Завдання №2 текст з макетів--------------------- */
+/*--------------------- макет №1--------------------------*/
+.portfolio {
+   color: var(--Gray-900, #132238);
+      font-family: "Work Sans", sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 50px;
+}
+.portfolio-text1, .portfolio-text2 {
+   color: var(--Gray-600, #556070);
+      font-family: "Work Sans", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+}
+/*--------------------- макет №2--------------------------*/
+.landingpage {
+color: var(--Colour-Main-Blue-900, #091133);
+   font-feature-settings: 'liga' off, 'clig' off;
+   font-family: Roboto, sans-serif;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 66px;
+   letter-spacing: 1px;
+}
+
+.landingpage-text {
+   color: var(--Colour-Main-Blue-500, #505F98);
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: Roboto, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+}
+
+/*--------------------- макет №3--------------------------*/
+
+.presentation {
+color: var(--Neutral-Colors-Color-800, #1E1B39);
+font-feature-settings: 'liga' off,
+'clig' off;
+/* Special headings/Display 2 */
+font-family: "DM Sans";
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: 95px;
+}
+
+.presentation-text1, .presentation-text2{
+   color: var(--Neutral-Colors-Neutral-700, #474464);
+      font-feature-settings: 'liga' off, 'clig' off;
+   
+      /* Body/Default */
+      font-family: "DM Sans";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;
+}
