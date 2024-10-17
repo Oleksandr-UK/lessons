@@ -1,0 +1,214 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+
+/* ----------landingpageTemplate1------------ */
+.wrapper1 {
+   max-width: 520px;
+   margin: 160px auto 0;
+}
+.text-block1 {
+   margin-bottom: 70px;
+}
+.title1 {
+   margin-bottom: 16px;
+   color: #091133;
+   font-family: Roboto, sans serif;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 48px;
+   text-transform: capitalize;
+}
+.title-text1 {
+   color: #6F7CB2;
+   font-family: Roboto, sans serif;
+   font-weight: 400;
+   line-height: 26px;
+}
+.element1, .element2,.element3,.element4 { 
+   margin-bottom: 6px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.element2, .element4 {
+   margin-left: 25px;
+}
+.card-title {
+   color: #091133;
+   font-family: Roboto, sans serif;
+   font-weight: 500;
+   line-height: 26px;
+   text-transform: capitalize;
+}
+.text-card1 {
+   color: #5D6970;
+   font-family: Roboto, sans serif;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   width: 245px;
+   height: 54px;
+   margin-bottom: 30px;
+}
+.img1, .img2, .img3, .img4{
+   margin-bottom: 14px;
+}
+.text-card2 {
+   color: #5D6970;
+   font-family: Roboto, sans serif;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   width: 245px;
+   height: 54px;
+   margin-bottom: 30px;
+}
+.text-card3 {
+   color: #5D6970;
+   font-family: Roboto, sans serif;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   width: 245px;
+   height: 54px;
+   margin-bottom: 30px;
+}
+.text-card4 {
+   color: #5D6970;
+   font-family: Roboto, sans serif;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   width: 245px;
+   height: 54px;
+   margin-bottom: 30px;
+}
+
+
+
+
+/* ----------landingpageTemplate2------------ */
+.box {
+   max-width: 539px;
+   margin: 260px auto 0;
+}
+.title2 {
+   color: #091133;
+   font-family: Roboto, sans-serif;
+   font-size: 50px;
+   font-weight: 500;
+   line-height: 66px;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+.title-text2 {
+   color:#505F98;
+   font-family: Roboto, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   margin-bottom: 70px;
+}
+.button-left {
+   color:#FFF;
+   background-color: #111B47;
+   text-align: center;
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 26px;
+}
+.button-right {
+   color: #091133;
+   background-color: #ff0000;
+   text-align: center;
+   font-family: Roboto, sans-serif;
+   font-weight: 500;
+   line-height: 26px;
+   margin-left: 30px;
+}
+.button-left, .button-right {
+   display: inline-block;
+   vertical-align: middle;
+   width: 189px;
+   height: 26px;
+   margin-bottom: 50px;
+}
+
+/* ----------DarkThemeWebsite------------ */
+
+.wrapper {
+   max-width: 1920px;
+   margin: 0 auto;
+   padding-bottom: 150px;
+   background-color: #141414;
+}
+
+.title {
+   max-width: 1635px;
+   margin: 0 auto;
+   color: #FFF;
+   font-family: Manrope, sans-serif;
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 150%;
+   margin-bottom: 14px;
+}
+
+.title-text {
+   max-width: 1635px;
+   margin: 0 auto;
+   color: #999;
+   font-family: Manrope, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 150%;
+   margin-bottom: 80px;
+}
+
+.hading {
+   display: inline-block;
+   vertical-align: middle;
+   color: #FFF;
+   font-family: Manrope, sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 36px;
+   max-width: 323px;
+   margin-top: 16px;
+}
+
+.text-box {
+   color: #999;
+   font-family: Manrope, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   height: 150%;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1635px;
+   height: auto;
+}
+
+.cards {
+   max-width: 512.33px;
+   margin: 0 auto;
+   margin: 15px;
+   display: inline-block;
+   vertical-align: middle;
+   padding: 50px;
+   border-radius: 12px;
+   border: 1px solid #262626;
+   background: #0F0F0F;
+}
+
+.img {
+   margin-right: 16px;
+   margin-bottom: 30px;
+}
+
